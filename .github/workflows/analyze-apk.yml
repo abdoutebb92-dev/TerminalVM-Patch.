@@ -1,0 +1,45 @@
+name: APK analysis runner
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y unzip zip openjdk-17-jdk curl grep
+          curl -fsSL https://github.com/iBotPeaches/Apktool/releases/download/v2.11.1/apktool_2.11.1.jar -o apktool.jar
+
+      - name: Decode APK and collect compatibility-check clues
+        shell: bash
+        run: |
+          set -euo pipefail
+          APK="$(find . -maxdepth 3 -type f -iname '*.apk' | head -n 1)"
+          if [ -z "$APK" ]; then echo "No APK found in repository"; exit 1; fi
+          mkdir -p analysis
+          echo "Input: $APK" > analysis/summary.txt
+          sha256sum "$APK" >> analysis/summary.txt
+          java -jar apktool.jar d -f "$APK" -o decoded
+          find decoded -type f | sort > analysis/files.txt
+          grep -RniE 'protected.?vm|isProtected|protected.?virtual|virtualization|AVF|AndroidVirtualization|VirtualMachine|KVM|vm.?check|unsupported' decoded/smali* decoded/res decoded/AndroidManifest.xml 2>/dev/null > analysis/matches.txt || true
+          grep -RniE 'protected.?vm|isProtected|protected.?virtual|virtualization|AVF|AndroidVirtualization|VirtualMachine|KVM|vm.?check|unsupported' decoded 2>/dev/null | head -n 400 > analysis/text_hits.txt || true
+          echo "Decode completed; see matches and text_hits." >> analysis/summary.txt
+
+      - name: Upload analysis bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: apk-analysis
+          path: |
+            analysis/
+            decoded/
+          retention-days: 5
