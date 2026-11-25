@@ -1,4 +1,4 @@
-name: APK analysis runner
+name: APK focused analysis
 
 on:
   workflow_dispatch:
@@ -17,29 +17,38 @@ jobs:
       - name: Install tools
         run: |
           sudo apt-get update
-          sudo apt-get install -y unzip zip openjdk-17-jdk curl grep
+          sudo apt-get install -y unzip openjdk-17-jdk curl grep
           curl -fsSL https://github.com/iBotPeaches/Apktool/releases/download/v2.11.1/apktool_2.11.1.jar -o apktool.jar
 
-      - name: Decode APK and collect compatibility-check clues
+      - name: Decode and create focused report
         shell: bash
         run: |
           set -euo pipefail
           APK="$(find . -maxdepth 3 -type f -iname '*.apk' | head -n 1)"
-          if [ -z "$APK" ]; then echo "No APK found in repository"; exit 1; fi
+          if [ -z "$APK" ]; then echo "No APK found"; exit 1; fi
           mkdir -p analysis
-          echo "Input: $APK" > analysis/summary.txt
+          echo "APK: $APK" > analysis/summary.txt
           sha256sum "$APK" >> analysis/summary.txt
           java -jar apktool.jar d -f "$APK" -o decoded
-          find decoded -type f | sort > analysis/files.txt
-          grep -RniE 'protected.?vm|isProtected|protected.?virtual|virtualization|AVF|AndroidVirtualization|VirtualMachine|KVM|vm.?check|unsupported' decoded/smali* decoded/res decoded/AndroidManifest.xml 2>/dev/null > analysis/matches.txt || true
-          grep -RniE 'protected.?vm|isProtected|protected.?virtual|virtualization|AVF|AndroidVirtualization|VirtualMachine|KVM|vm.?check|unsupported' decoded 2>/dev/null | head -n 400 > analysis/text_hits.txt || true
-          echo "Decode completed; see matches and text_hits." >> analysis/summary.txt
+          {
+            echo "=== Manifest feature and app declarations ==="
+            grep -nE 'virtualization_framework|uses-feature|application|activity|service' decoded/AndroidManifest.xml || true
+            echo
+            echo "=== VM config and service classes ==="
+            find decoded/smali* -type f \( -iname '*ConfigJson*' -o -iname '*VmLauncher*' -o -iname '*Installer*' -o -iname '*MainActivity*' -o -iname '*VirtualMachine*' \) -print 2>/dev/null | head -n 250
+            echo
+            echo "=== Relevant textual strings (filtered) ==="
+            grep -RniE 'non.?protected|protected.?vm|isProtected|virtualization.?framework|virtualizationservice|VM.*unsupported|unsupported.*VM|feature.*not' decoded/smali* decoded/res decoded/AndroidManifest.xml 2>/dev/null | head -n 300 || true
+            echo
+            echo "=== ConfigJson protected VM setter context ==="
+            FILE="$(find decoded/smali* -type f -name 'ConfigJson.smali' | head -n 1)"
+            if [ -n "$FILE" ]; then grep -n -B 12 -A 18 'setProtectedVm' "$FILE" || true; fi
+          } > analysis/focused_report.txt
+          echo "Focused report created." >> analysis/summary.txt
 
-      - name: Upload analysis bundle
+      - name: Upload focused report
         uses: actions/upload-artifact@v4
         with:
-          name: apk-analysis
-          path: |
-            analysis/
-            decoded/
+          name: focused-analysis
+          path: analysis/
           retention-days: 5
