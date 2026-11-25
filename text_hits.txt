@@ -1,0 +1,400 @@
+decoded/res/layout/fragment_terminal_tab.xml:8:    <com.android.virtualization.terminal.TerminalView android:id="@id/webview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip" />
+decoded/smali/org/apache/commons/compress/compressors/gzip/GzipCompressorInputStream.smali:360:    const-string v1, "Unsupported compression method "
+decoded/smali/org/apache/commons/compress/utils/ArchiveUtils.smali:138:    .catch Ljava/io/UnsupportedEncodingException; {:try_start_0 .. :try_end_0} :catch_0
+decoded/smali/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.smali:42:    .catch Ljava/nio/charset/UnsupportedCharsetException; {:try_start_0 .. :try_end_0} :catch_0
+decoded/smali/com/google/gson/JsonPrimitive.smali:329:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/gson/JsonPrimitive.smali:333:    invoke-direct {p0, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/gson/internal/bind/TypeAdapters$1.smali:30:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/gson/internal/bind/TypeAdapters$1.smali:34:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/gson/internal/bind/TypeAdapters$1.smali:54:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/gson/internal/bind/TypeAdapters$1.smali:79:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/gson/internal/LazilyParsedNumber.smali:34:    const-string p1, "Deserialization is unsupported"
+decoded/smali/com/google/gson/internal/reflect/ReflectionHelper$RecordNotSupportedHelper.smali:33:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/gson/internal/reflect/ReflectionHelper$RecordNotSupportedHelper.smali:37:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/gson/internal/reflect/ReflectionHelper$RecordNotSupportedHelper.smali:46:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/gson/internal/reflect/ReflectionHelper$RecordNotSupportedHelper.smali:50:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/gson/internal/reflect/ReflectionHelper$RecordNotSupportedHelper.smali:59:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/gson/internal/reflect/ReflectionHelper$RecordNotSupportedHelper.smali:63:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/gson/internal/LinkedTreeMap.smali:178:    const-string p1, "Deserialization is unsupported"
+decoded/smali/com/google/gson/internal/UnsafeAllocator$4.smali:22:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/gson/internal/UnsafeAllocator$4.smali:42:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/common/base/Throwables.smali:202:    .catch Ljava/lang/UnsupportedOperationException; {:try_start_0 .. :try_end_0} :catch_0
+decoded/smali/com/google/common/base/AbstractIterator.smali:178:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/common/base/AbstractIterator.smali:180:    invoke-direct {p0}, Ljava/lang/UnsupportedOperationException;-><init>()V
+decoded/smali/com/google/android/material/resources/TextAppearance.smali:648:    .catch Ljava/lang/UnsupportedOperationException; {:try_start_0 .. :try_end_0} :catch_1
+decoded/smali/com/google/android/material/chip/Chip.smali:1209:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/android/material/chip/Chip.smali:1213:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/android/material/chip/Chip.smali:1219:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/android/material/chip/Chip.smali:1221:    invoke-direct {p0, v2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/android/material/chip/Chip.smali:1227:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/android/material/chip/Chip.smali:1229:    invoke-direct {p0, v2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/android/material/chip/Chip.smali:1235:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/android/material/chip/Chip.smali:1239:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/android/material/chip/Chip.smali:1245:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/android/material/chip/Chip.smali:1249:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/android/material/chip/Chip.smali:2377:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/android/material/chip/Chip.smali:2381:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/android/material/chip/Chip.smali:2387:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/android/material/chip/Chip.smali:2391:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/android/material/chip/Chip.smali:2410:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/android/material/chip/Chip.smali:2414:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/android/material/chip/Chip.smali:2420:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/android/material/chip/Chip.smali:2424:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/android/material/chip/Chip.smali:2443:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/android/material/chip/Chip.smali:2447:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/android/material/chip/Chip.smali:2453:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/android/material/chip/Chip.smali:2457:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/android/material/chip/Chip.smali:2476:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/android/material/chip/Chip.smali:2480:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/android/material/chip/Chip.smali:2486:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/android/material/chip/Chip.smali:2490:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/android/material/chip/Chip.smali:2509:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/android/material/chip/Chip.smali:2513:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/android/material/chip/Chip.smali:2519:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/android/material/chip/Chip.smali:2523:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/android/material/chip/Chip.smali:2542:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/android/material/chip/Chip.smali:2546:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/android/material/chip/Chip.smali:2552:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/android/material/chip/Chip.smali:2556:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/android/material/chip/Chip.smali:2612:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/android/material/chip/Chip.smali:2616:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/android/material/chip/Chip.smali:2675:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/android/material/chip/Chip.smali:2679:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/android/material/chip/Chip.smali:2698:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/android/material/chip/Chip.smali:2702:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/android/material/chip/Chip.smali:2739:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/android/material/chip/Chip.smali:2743:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/android/material/chip/Chip.smali:2780:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/android/material/chip/Chip.smali:2784:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/protobuf/UnmodifiableLazyStringList$1.smali:59:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/protobuf/UnmodifiableLazyStringList$1.smali:61:    invoke-direct {p0}, Ljava/lang/UnsupportedOperationException;-><init>()V
+decoded/smali/com/google/protobuf/UnmodifiableLazyStringList$1.smali:174:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/protobuf/UnmodifiableLazyStringList$1.smali:176:    invoke-direct {p0}, Ljava/lang/UnsupportedOperationException;-><init>()V
+decoded/smali/com/google/protobuf/UnmodifiableLazyStringList$1.smali:196:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/protobuf/UnmodifiableLazyStringList$1.smali:198:    invoke-direct {p0}, Ljava/lang/UnsupportedOperationException;-><init>()V
+decoded/smali/com/google/protobuf/MapFieldLite.smali:215:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/protobuf/MapFieldLite.smali:217:    invoke-direct {p0}, Ljava/lang/UnsupportedOperationException;-><init>()V
+decoded/smali/com/google/protobuf/UnknownFieldSetLite.smali:469:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/protobuf/UnknownFieldSetLite.smali:471:    invoke-direct {p0}, Ljava/lang/UnsupportedOperationException;-><init>()V
+decoded/smali/com/google/protobuf/UnmodifiableLazyStringList$2.smali:83:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/protobuf/UnmodifiableLazyStringList$2.smali:85:    invoke-direct {p0}, Ljava/lang/UnsupportedOperationException;-><init>()V
+decoded/smali/com/google/protobuf/UnmodifiableLazyStringList.smali:42:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/protobuf/UnmodifiableLazyStringList.smali:44:    invoke-direct {p0}, Ljava/lang/UnsupportedOperationException;-><init>()V
+decoded/smali/com/google/protobuf/ManifestSchemaFactory$CompositeMessageInfoFactory.smali:101:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/protobuf/ManifestSchemaFactory$CompositeMessageInfoFactory.smali:122:    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/protobuf/GeneratedMessageInfoFactory.smali:130:    const-string v1, "Unsupported message type: "
+decoded/smali/com/google/protobuf/AbstractProtobufList.smali:96:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/protobuf/AbstractProtobufList.smali:98:    invoke-direct {p0}, Ljava/lang/UnsupportedOperationException;-><init>()V
+decoded/smali/com/google/protobuf/CodedOutputStream$AbstractBufferedEncoder.smali:624:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/protobuf/CodedOutputStream$AbstractBufferedEncoder.smali:628:    invoke-direct {p0, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+decoded/smali/com/google/protobuf/ByteString$AbstractByteIterator.smali:51:    new-instance p0, Ljava/lang/UnsupportedOperationException;
+decoded/smali/com/google/protobuf/ByteString$AbstractByteIterator.smali:53:    invoke-direct {p0}, Ljava/lang/UnsupportedOperationException;-><init>()V
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:1:.class public final Lcom/android/virtualization/terminal/DisplayProvider$Callback;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:10:.field private final surfaceKind:Lcom/android/virtualization/terminal/DisplayProvider$SurfaceKind;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:12:.field final synthetic this$0:Lcom/android/virtualization/terminal/DisplayProvider;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:16:.method public constructor <init>(Lcom/android/virtualization/terminal/DisplayProvider;Lcom/android/virtualization/terminal/DisplayProvider$SurfaceKind;)V
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:22:    iput-object p1, p0, Lcom/android/virtualization/terminal/DisplayProvider$Callback;->this$0:Lcom/android/virtualization/terminal/DisplayProvider;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:26:    iput-object p2, p0, Lcom/android/virtualization/terminal/DisplayProvider$Callback;->surfaceKind:Lcom/android/virtualization/terminal/DisplayProvider$SurfaceKind;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:37:    iget-object p0, p0, Lcom/android/virtualization/terminal/DisplayProvider$Callback;->surfaceKind:Lcom/android/virtualization/terminal/DisplayProvider$SurfaceKind;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:39:    sget-object v0, Lcom/android/virtualization/terminal/DisplayProvider$SurfaceKind;->CURSOR:Lcom/android/virtualization/terminal/DisplayProvider$SurfaceKind;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:71:    iget-object v1, p0, Lcom/android/virtualization/terminal/DisplayProvider$Callback;->this$0:Lcom/android/virtualization/terminal/DisplayProvider;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:73:    invoke-static {v1}, Lcom/android/virtualization/terminal/DisplayProvider;->access$getDisplayService(Lcom/android/virtualization/terminal/DisplayProvider;)Landroid/crosvm/ICrosvmAndroidDisplayService;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:81:    invoke-virtual {p0}, Lcom/android/virtualization/terminal/DisplayProvider$Callback;->isForCursor()Z
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:95:    iget-object v1, p0, Lcom/android/virtualization/terminal/DisplayProvider$Callback;->surfaceKind:Lcom/android/virtualization/terminal/DisplayProvider$SurfaceKind;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:120:    iget-object p1, p0, Lcom/android/virtualization/terminal/DisplayProvider$Callback;->surfaceKind:Lcom/android/virtualization/terminal/DisplayProvider$SurfaceKind;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:122:    sget-object v1, Lcom/android/virtualization/terminal/DisplayProvider$Callback$WhenMappings;->$EnumSwitchMapping$0:[I
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:139:    iget-object p1, p0, Lcom/android/virtualization/terminal/DisplayProvider$Callback;->this$0:Lcom/android/virtualization/terminal/DisplayProvider;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:141:    invoke-static {p1}, Lcom/android/virtualization/terminal/DisplayProvider;->access$createNewCursorStream(Lcom/android/virtualization/terminal/DisplayProvider;)Landroid/os/ParcelFileDescriptor;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:146:    iget-object v1, p0, Lcom/android/virtualization/terminal/DisplayProvider$Callback;->this$0:Lcom/android/virtualization/terminal/DisplayProvider;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:148:    invoke-static {v1}, Lcom/android/virtualization/terminal/DisplayProvider;->access$getDisplayService(Lcom/android/virtualization/terminal/DisplayProvider;)Landroid/crosvm/ICrosvmAndroidDisplayService;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:171:    iget-object p1, p0, Lcom/android/virtualization/terminal/DisplayProvider$Callback;->this$0:Lcom/android/virtualization/terminal/DisplayProvider;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:173:    invoke-static {p1}, Lcom/android/virtualization/terminal/DisplayProvider;->access$getDisplayService(Lcom/android/virtualization/terminal/DisplayProvider;)Landroid/crosvm/ICrosvmAndroidDisplayService;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:177:    invoke-virtual {p0}, Lcom/android/virtualization/terminal/DisplayProvider$Callback;->isForCursor()Z
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:189:    iget-object p0, p0, Lcom/android/virtualization/terminal/DisplayProvider$Callback;->surfaceKind:Lcom/android/virtualization/terminal/DisplayProvider$SurfaceKind;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:218:    iget-object p1, p0, Lcom/android/virtualization/terminal/DisplayProvider$Callback;->this$0:Lcom/android/virtualization/terminal/DisplayProvider;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:220:    invoke-static {p1}, Lcom/android/virtualization/terminal/DisplayProvider;->access$getDisplayService(Lcom/android/virtualization/terminal/DisplayProvider;)Landroid/crosvm/ICrosvmAndroidDisplayService;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:224:    invoke-virtual {p0}, Lcom/android/virtualization/terminal/DisplayProvider$Callback;->isForCursor()Z
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$Callback.smali:240:    iget-object p0, p0, Lcom/android/virtualization/terminal/DisplayProvider$Callback;->surfaceKind:Lcom/android/virtualization/terminal/DisplayProvider$SurfaceKind;
+decoded/smali/com/android/virtualization/terminal/TerminalViewModel.smali:1:.class public final Lcom/android/virtualization/terminal/TerminalViewModel;
+decoded/smali/com/android/virtualization/terminal/TerminalViewModel.smali:26:    iput-object v0, p0, Lcom/android/virtualization/terminal/TerminalViewModel;->terminalViews:Ljava/util/Set;
+decoded/smali/com/android/virtualization/terminal/TerminalViewModel.smali:33:    iput-object v0, p0, Lcom/android/virtualization/terminal/TerminalViewModel;->terminalTabs:Ljava/util/Map;
+decoded/smali/com/android/virtualization/terminal/TerminalViewModel.smali:44:    iget-object p0, p0, Lcom/android/virtualization/terminal/TerminalViewModel;->selectedTabViewId:Ljava/lang/String;
+decoded/smali/com/android/virtualization/terminal/TerminalViewModel.smali:53:    iget-object p0, p0, Lcom/android/virtualization/terminal/TerminalViewModel;->terminalTabs:Ljava/util/Map;
+decoded/smali/com/android/virtualization/terminal/TerminalViewModel.smali:62:    iget-object p0, p0, Lcom/android/virtualization/terminal/TerminalViewModel;->terminalViews:Ljava/util/Set;
+decoded/smali/com/android/virtualization/terminal/TerminalViewModel.smali:71:    iput-object p1, p0, Lcom/android/virtualization/terminal/TerminalViewModel;->selectedTabViewId:Ljava/lang/String;
+decoded/smali/com/android/virtualization/terminal/IInstallerService.smali:1:.class public interface abstract Lcom/android/virtualization/terminal/IInstallerService;
+decoded/smali/com/android/virtualization/terminal/IInstallerService.smali:19:.method public abstract setProgressListener(Lcom/android/virtualization/terminal/IInstallProgressListener;)V
+decoded/smali/com/android/virtualization/terminal/MainActivity$Companion$prop$1.smali:1:.class final Lcom/android/virtualization/terminal/MainActivity$Companion$prop$1;
+decoded/smali/com/android/virtualization/terminal/MainActivity$Companion$prop$1.smali:10:.field public static final INSTANCE:Lcom/android/virtualization/terminal/MainActivity$Companion$prop$1;
+decoded/smali/com/android/virtualization/terminal/MainActivity$Companion$prop$1.smali:18:    new-instance v0, Lcom/android/virtualization/terminal/MainActivity$Companion$prop$1;
+decoded/smali/com/android/virtualization/terminal/MainActivity$Companion$prop$1.smali:20:    invoke-direct {v0}, Lcom/android/virtualization/terminal/MainActivity$Companion$prop$1;-><init>()V
+decoded/smali/com/android/virtualization/terminal/MainActivity$Companion$prop$1.smali:22:    sput-object v0, Lcom/android/virtualization/terminal/MainActivity$Companion$prop$1;->INSTANCE:Lcom/android/virtualization/terminal/MainActivity$Companion$prop$1;
+decoded/smali/com/android/virtualization/terminal/TerminalTabAdapter.smali:1:.class public final Lcom/android/virtualization/terminal/TerminalTabAdapter;
+decoded/smali/com/android/virtualization/terminal/TerminalTabAdapter.smali:24:    iput-object p1, p0, Lcom/android/virtualization/terminal/TerminalTabAdapter;->tabs:Ljava/util/ArrayList;
+decoded/smali/com/android/virtualization/terminal/TerminalTabAdapter.smali:44:    iget-object p0, p0, Lcom/android/virtualization/terminal/TerminalTabAdapter;->tabs:Ljava/util/ArrayList;
+decoded/smali/com/android/virtualization/terminal/TerminalTabAdapter.smali:46:    new-instance v1, Lcom/android/virtualization/terminal/TabMetadata;
+decoded/smali/com/android/virtualization/terminal/TerminalTabAdapter.smali:48:    invoke-direct {v1, v0}, Lcom/android/virtualization/terminal/TabMetadata;-><init>(Ljava/lang/String;)V
+decoded/smali/com/android/virtualization/terminal/TerminalTabAdapter.smali:59:    iget-object p0, p0, Lcom/android/virtualization/terminal/TerminalTabAdapter;->tabs:Ljava/util/ArrayList;
+decoded/smali/com/android/virtualization/terminal/TerminalTabAdapter.smali:91:    check-cast v3, Lcom/android/virtualization/terminal/TabMetadata;
+decoded/smali/com/android/virtualization/terminal/TerminalTabAdapter.smali:94:    invoke-virtual {v3}, Lcom/android/virtualization/terminal/TabMetadata;->getId()Ljava/lang/String;
+decoded/smali/com/android/virtualization/terminal/TerminalTabAdapter.smali:120:    new-instance v0, Lcom/android/virtualization/terminal/TerminalTabFragment;
+decoded/smali/com/android/virtualization/terminal/TerminalTabAdapter.smali:122:    invoke-direct {v0}, Lcom/android/virtualization/terminal/TerminalTabFragment;-><init>()V
+decoded/smali/com/android/virtualization/terminal/TerminalTabAdapter.smali:125:    iget-object p0, p0, Lcom/android/virtualization/terminal/TerminalTabAdapter;->tabs:Ljava/util/ArrayList;
+decoded/smali/com/android/virtualization/terminal/TerminalTabAdapter.smali:131:    check-cast p0, Lcom/android/virtualization/terminal/TabMetadata;
+decoded/smali/com/android/virtualization/terminal/TerminalTabAdapter.smali:133:    invoke-virtual {p0}, Lcom/android/virtualization/terminal/TabMetadata;->getId()Ljava/lang/String;
+decoded/smali/com/android/virtualization/terminal/TerminalTabAdapter.smali:162:    iget-object v0, p0, Lcom/android/virtualization/terminal/TerminalTabAdapter;->tabs:Ljava/util/ArrayList;
+decoded/smali/com/android/virtualization/terminal/TerminalTabAdapter.smali:171:    iget-object v0, p0, Lcom/android/virtualization/terminal/TerminalTabAdapter;->tabs:Ljava/util/ArrayList;
+decoded/smali/com/android/virtualization/terminal/TerminalTabAdapter.smali:186:    iget-object p0, p0, Lcom/android/virtualization/terminal/TerminalTabAdapter;->tabs:Ljava/util/ArrayList;
+decoded/smali/com/android/virtualization/terminal/TerminalTabAdapter.smali:199:    iget-object p0, p0, Lcom/android/virtualization/terminal/TerminalTabAdapter;->tabs:Ljava/util/ArrayList;
+decoded/smali/com/android/virtualization/terminal/TerminalTabAdapter.smali:205:    check-cast p0, Lcom/android/virtualization/terminal/TabMetadata;
+decoded/smali/com/android/virtualization/terminal/TerminalTabAdapter.smali:207:    invoke-virtual {p0}, Lcom/android/virtualization/terminal/TabMetadata;->getId()Ljava/lang/String;
+decoded/smali/com/android/virtualization/terminal/TerminalTabAdapter.smali:224:    iget-object p0, p0, Lcom/android/virtualization/terminal/TerminalTabAdapter;->tabs:Ljava/util/ArrayList;
+decoded/smali/com/android/virtualization/terminal/MainActivity$$ExternalSyntheticLambda0.smali:1:.class public final synthetic Lcom/android/virtualization/terminal/MainActivity$$ExternalSyntheticLambda0;
+decoded/smali/com/android/virtualization/terminal/MainActivity$$ExternalSyntheticLambda0.smali:10:.field public final synthetic f$0:Lcom/android/virtualization/terminal/MainActivity;
+decoded/smali/com/android/virtualization/terminal/MainActivity$$ExternalSyntheticLambda0.smali:12:.field public final synthetic f$1:Lcom/android/virtualization/terminal/TerminalView;
+decoded/smali/com/android/virtualization/terminal/MainActivity$$ExternalSyntheticLambda0.smali:16:.method public synthetic constructor <init>(Lcom/android/virtualization/terminal/MainActivity;Lcom/android/virtualization/terminal/TerminalView;)V
+decoded/smali/com/android/virtualization/terminal/MainActivity$$ExternalSyntheticLambda0.smali:22:    iput-object p1, p0, Lcom/android/virtualization/terminal/MainActivity$$ExternalSyntheticLambda0;->f$0:Lcom/android/virtualization/terminal/MainActivity;
+decoded/smali/com/android/virtualization/terminal/MainActivity$$ExternalSyntheticLambda0.smali:24:    iput-object p2, p0, Lcom/android/virtualization/terminal/MainActivity$$ExternalSyntheticLambda0;->f$1:Lcom/android/virtualization/terminal/TerminalView;
+decoded/smali/com/android/virtualization/terminal/MainActivity$$ExternalSyntheticLambda0.smali:35:    iget-object v0, p0, Lcom/android/virtualization/terminal/MainActivity$$ExternalSyntheticLambda0;->f$0:Lcom/android/virtualization/terminal/MainActivity;
+decoded/smali/com/android/virtualization/terminal/MainActivity$$ExternalSyntheticLambda0.smali:37:    iget-object p0, p0, Lcom/android/virtualization/terminal/MainActivity$$ExternalSyntheticLambda0;->f$1:Lcom/android/virtualization/terminal/TerminalView;
+decoded/smali/com/android/virtualization/terminal/MainActivity$$ExternalSyntheticLambda0.smali:39:    check-cast p1, Lcom/android/virtualization/terminal/TerminalInfo;
+decoded/smali/com/android/virtualization/terminal/MainActivity$$ExternalSyntheticLambda0.smali:41:    invoke-static {v0, p0, p1}, Lcom/android/virtualization/terminal/MainActivity;->$r8$lambda$dd9ZBoI6G6sfOtz-l5WovQkN9LA(Lcom/android/virtualization/terminal/MainActivity;Lcom/android/virtualization/terminal/TerminalView;Lcom/android/virtualization/terminal/TerminalInfo;)Lkotlin/Unit;
+decoded/smali/com/android/virtualization/terminal/InstallerActivity$measureImageSizeAndUpdateDescription$1.smali:1:.class final Lcom/android/virtualization/terminal/InstallerActivity$measureImageSizeAndUpdateDescription$1;
+decoded/smali/com/android/virtualization/terminal/InstallerActivity$measureImageSizeAndUpdateDescription$1.smali:10:.field final synthetic this$0:Lcom/android/virtualization/terminal/InstallerActivity;
+decoded/smali/com/android/virtualization/terminal/InstallerActivity$measureImageSizeAndUpdateDescription$1.smali:14:.method constructor <init>(Lcom/android/virtualization/terminal/InstallerActivity;)V
+decoded/smali/com/android/virtualization/terminal/InstallerActivity$measureImageSizeAndUpdateDescription$1.smali:18:    iput-object p1, p0, Lcom/android/virtualization/terminal/InstallerActivity$measureImageSizeAndUpdateDescription$1;->this$0:Lcom/android/virtualization/terminal/InstallerActivity;
+decoded/smali/com/android/virtualization/terminal/InstallerActivity$measureImageSizeAndUpdateDescription$1.smali:32:    sget-object v0, Lcom/android/virtualization/terminal/ImageArchive;->Companion:Lcom/android/virtualization/terminal/ImageArchive$Companion;
+decoded/smali/com/android/virtualization/terminal/InstallerActivity$measureImageSizeAndUpdateDescription$1.smali:34:    invoke-virtual {v0}, Lcom/android/virtualization/terminal/ImageArchive$Companion;->getDefault()Lcom/android/virtualization/terminal/ImageArchive;
+decoded/smali/com/android/virtualization/terminal/InstallerActivity$measureImageSizeAndUpdateDescription$1.smali:38:    invoke-virtual {v0}, Lcom/android/virtualization/terminal/ImageArchive;->getSize()J
+decoded/smali/com/android/virtualization/terminal/InstallerActivity$measureImageSizeAndUpdateDescription$1.smali:45:    iget-object p0, p0, Lcom/android/virtualization/terminal/InstallerActivity$measureImageSizeAndUpdateDescription$1;->this$0:Lcom/android/virtualization/terminal/InstallerActivity;
+decoded/smali/com/android/virtualization/terminal/InstallerActivity$measureImageSizeAndUpdateDescription$1.smali:47:    invoke-static {p0, v0, v1}, Lcom/android/virtualization/terminal/InstallerActivity;->access$updateSizeEstimation(Lcom/android/virtualization/terminal/InstallerActivity;J)V
+decoded/smali/com/android/virtualization/terminal/ImageArchive$UrlSource.smali:1:.class final Lcom/android/virtualization/terminal/ImageArchive$UrlSource;
+decoded/smali/com/android/virtualization/terminal/ImageArchive$UrlSource.smali:2:.super Lcom/android/virtualization/terminal/ImageArchive$Source;
+decoded/smali/com/android/virtualization/terminal/ImageArchive$UrlSource.smali:17:    invoke-direct {p0, v0}, Lcom/android/virtualization/terminal/ImageArchive$Source;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+decoded/smali/com/android/virtualization/terminal/ImageArchive$UrlSource.smali:19:    iput-object p1, p0, Lcom/android/virtualization/terminal/ImageArchive$UrlSource;->value:Ljava/lang/Object;
+decoded/smali/com/android/virtualization/terminal/ImageArchive$UrlSource.smali:37:    instance-of v1, p1, Lcom/android/virtualization/terminal/ImageArchive$UrlSource;
+decoded/smali/com/android/virtualization/terminal/ImageArchive$UrlSource.smali:46:    check-cast p1, Lcom/android/virtualization/terminal/ImageArchive$UrlSource;
+decoded/smali/com/android/virtualization/terminal/ImageArchive$UrlSource.smali:48:    iget-object p0, p0, Lcom/android/virtualization/terminal/ImageArchive$UrlSource;->value:Ljava/lang/Object;
+decoded/smali/com/android/virtualization/terminal/ImageArchive$UrlSource.smali:50:    iget-object p1, p1, Lcom/android/virtualization/terminal/ImageArchive$UrlSource;->value:Ljava/lang/Object;
+decoded/smali/com/android/virtualization/terminal/ImageArchive$UrlSource.smali:68:    iget-object p0, p0, Lcom/android/virtualization/terminal/ImageArchive$UrlSource;->value:Ljava/lang/Object;
+decoded/smali/com/android/virtualization/terminal/ImageArchive$UrlSource.smali:77:    iget-object p0, p0, Lcom/android/virtualization/terminal/ImageArchive$UrlSource;->value:Ljava/lang/Object;
+decoded/smali/com/android/virtualization/terminal/ImageArchive$UrlSource.smali:97:    iget-object p0, p0, Lcom/android/virtualization/terminal/ImageArchive$UrlSource;->value:Ljava/lang/Object;
+decoded/smali/com/android/virtualization/terminal/MainActivity$installerLauncher$1.smali:1:.class final Lcom/android/virtualization/terminal/MainActivity$installerLauncher$1;
+decoded/smali/com/android/virtualization/terminal/MainActivity$installerLauncher$1.smali:10:.field final synthetic this$0:Lcom/android/virtualization/terminal/MainActivity;
+decoded/smali/com/android/virtualization/terminal/MainActivity$installerLauncher$1.smali:14:.method constructor <init>(Lcom/android/virtualization/terminal/MainActivity;)V
+decoded/smali/com/android/virtualization/terminal/MainActivity$installerLauncher$1.smali:18:    iput-object p1, p0, Lcom/android/virtualization/terminal/MainActivity$installerLauncher$1;->this$0:Lcom/android/virtualization/terminal/MainActivity;
+decoded/smali/com/android/virtualization/terminal/MainActivity$installerLauncher$1.smali:49:    iget-object p1, p0, Lcom/android/virtualization/terminal/MainActivity$installerLauncher$1;->this$0:Lcom/android/virtualization/terminal/MainActivity;
+decoded/smali/com/android/virtualization/terminal/MainActivity$installerLauncher$1.smali:62:    iget-object p0, p0, Lcom/android/virtualization/terminal/MainActivity$installerLauncher$1;->this$0:Lcom/android/virtualization/terminal/MainActivity;
+decoded/smali/com/android/virtualization/terminal/MainActivity$installerLauncher$1.smali:64:    invoke-static {p0}, Lcom/android/virtualization/terminal/MainActivity;->access$getManageExternalStorageActivityResultLauncher$p(Lcom/android/virtualization/terminal/MainActivity;)Landroidx/activity/result/ActivityResultLauncher;
+decoded/smali/com/android/virtualization/terminal/MainActivity$installerLauncher$1.smali:77:    invoke-static {p0, p0, p1}, Lcom/android/virtualization/terminal/MainActivity;->access$requestStoragePermissions(Lcom/android/virtualization/terminal/MainActivity;Landroid/content/Context;Landroidx/activity/result/ActivityResultLauncher;)V
+decoded/smali/com/android/virtualization/terminal/MainActivity$installerLauncher$1.smali:83:    iget-object p0, p0, Lcom/android/virtualization/terminal/MainActivity$installerLauncher$1;->this$0:Lcom/android/virtualization/terminal/MainActivity;
+decoded/smali/com/android/virtualization/terminal/MainActivity$installerLauncher$1.smali:85:    invoke-static {p0}, Lcom/android/virtualization/terminal/MainActivity;->access$startVm(Lcom/android/virtualization/terminal/MainActivity;)V
+decoded/smali/com/android/virtualization/terminal/MainActivity$installerLauncher$1.smali:96:    invoke-virtual {p0, p1}, Lcom/android/virtualization/terminal/MainActivity$installerLauncher$1;->onActivityResult(Landroidx/activity/result/ActivityResult;)V
+decoded/smali/com/android/virtualization/terminal/Logger$sam$java_util_function_ToLongFunction$0.smali:1:.class final synthetic Lcom/android/virtualization/terminal/Logger$sam$java_util_function_ToLongFunction$0;
+decoded/smali/com/android/virtualization/terminal/Logger$sam$java_util_function_ToLongFunction$0.smali:22:    iput-object p1, p0, Lcom/android/virtualization/terminal/Logger$sam$java_util_function_ToLongFunction$0;->function:Lkotlin/jvm/functions/Function1;
+decoded/smali/com/android/virtualization/terminal/Logger$sam$java_util_function_ToLongFunction$0.smali:33:    iget-object p0, p0, Lcom/android/virtualization/terminal/Logger$sam$java_util_function_ToLongFunction$0;->function:Lkotlin/jvm/functions/Function1;
+decoded/smali/com/android/virtualization/terminal/TabMetadata.smali:1:.class public final Lcom/android/virtualization/terminal/TabMetadata;
+decoded/smali/com/android/virtualization/terminal/TabMetadata.smali:19:    iput-object p1, p0, Lcom/android/virtualization/terminal/TabMetadata;->id:Ljava/lang/String;
+decoded/smali/com/android/virtualization/terminal/TabMetadata.smali:30:    iget-object p0, p0, Lcom/android/virtualization/terminal/TabMetadata;->id:Ljava/lang/String;
+decoded/smali/com/android/virtualization/terminal/Application.smali:1:.class public final Lcom/android/virtualization/terminal/Application;
+decoded/smali/com/android/virtualization/terminal/Application.smali:7:.field public static final Companion:Lcom/android/virtualization/terminal/Application$Companion;
+decoded/smali/com/android/virtualization/terminal/Application.smali:15:    new-instance v0, Lcom/android/virtualization/terminal/Application$Companion;
+decoded/smali/com/android/virtualization/terminal/Application.smali:19:    invoke-direct {v0, v1}, Lcom/android/virtualization/terminal/Application$Companion;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+decoded/smali/com/android/virtualization/terminal/Application.smali:21:    sput-object v0, Lcom/android/virtualization/terminal/Application;->Companion:Lcom/android/virtualization/terminal/Application$Companion;
+decoded/smali/com/android/virtualization/terminal/Application.smali:99:    invoke-direct {p0}, Lcom/android/virtualization/terminal/Application;->setupNotificationChannels()V
+decoded/smali/com/android/virtualization/terminal/InputForwarder$Companion.smali:1:.class public final Lcom/android/virtualization/terminal/InputForwarder$Companion;
+decoded/smali/com/android/virtualization/terminal/InputForwarder$Companion.smali:20:    invoke-direct {p0}, Lcom/android/virtualization/terminal/InputForwarder$Companion;-><init>()V
+decoded/smali/com/android/virtualization/terminal/InputForwarder$Companion.smali:25:.method public static final synthetic access$hasPhysicalKeyboard(Lcom/android/virtualization/terminal/InputForwarder$Companion;)Z
+decoded/smali/com/android/virtualization/terminal/InputForwarder$Companion.smali:29:    invoke-direct {p0}, Lcom/android/virtualization/terminal/InputForwarder$Companion;->hasPhysicalKeyboard()Z
+decoded/smali/com/android/virtualization/terminal/InputForwarder$Companion.smali:36:.method public static final synthetic access$isVolumeKey(Lcom/android/virtualization/terminal/InputForwarder$Companion;I)Z
+decoded/smali/com/android/virtualization/terminal/InputForwarder$Companion.smali:40:    invoke-direct {p0, p1}, Lcom/android/virtualization/terminal/InputForwarder$Companion;->isVolumeKey(I)Z
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2.smali:1:.class final Lcom/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2;
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2.smali:10:.field final synthetic this$0:Lcom/android/virtualization/terminal/SettingsRecoveryActivity;
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2.smali:14:.method constructor <init>(Lcom/android/virtualization/terminal/SettingsRecoveryActivity;)V
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2.smali:18:    iput-object p1, p0, Lcom/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2;->this$0:Lcom/android/virtualization/terminal/SettingsRecoveryActivity;
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2.smali:33:    iget-object v0, p0, Lcom/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2;->this$0:Lcom/android/virtualization/terminal/SettingsRecoveryActivity;
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2.smali:52:    new-instance v0, Lcom/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$1;
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2.smali:54:    iget-object p0, p0, Lcom/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2;->this$0:Lcom/android/virtualization/terminal/SettingsRecoveryActivity;
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2.smali:56:    invoke-direct {v0, p0}, Lcom/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$1;-><init>(Lcom/android/virtualization/terminal/SettingsRecoveryActivity;)V
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2.smali:67:    sget-object v0, Lcom/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$2;->INSTANCE:Lcom/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$2;
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$1$dialog$2$1.smali:1:.class final Lcom/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$1$dialog$2$1;
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$1$dialog$2$1.smali:12:.field final synthetic this$0:Lcom/android/virtualization/terminal/SettingsRecoveryActivity;
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$1$dialog$2$1.smali:16:.method constructor <init>(Lcom/android/virtualization/terminal/SettingsRecoveryActivity;Lkotlin/jvm/internal/Ref$BooleanRef;)V
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$1$dialog$2$1.smali:20:    iput-object p1, p0, Lcom/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$1$dialog$2$1;->this$0:Lcom/android/virtualization/terminal/SettingsRecoveryActivity;
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$1$dialog$2$1.smali:22:    iput-object p2, p0, Lcom/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$1$dialog$2$1;->$backupRootfs:Lkotlin/jvm/internal/Ref$BooleanRef;
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$1$dialog$2$1.smali:35:    iget-object v0, p0, Lcom/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$1$dialog$2$1;->this$0:Lcom/android/virtualization/terminal/SettingsRecoveryActivity;
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$1$dialog$2$1.smali:37:    iget-object p0, p0, Lcom/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$1$dialog$2$1;->$backupRootfs:Lkotlin/jvm/internal/Ref$BooleanRef;
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$1$dialog$2$1.smali:41:    invoke-static {v0, p0}, Lcom/android/virtualization/terminal/SettingsRecoveryActivity;->access$uninstall(Lcom/android/virtualization/terminal/SettingsRecoveryActivity;Z)V
+decoded/smali/com/android/virtualization/terminal/ErrorActivity$onCreate$1.smali:1:.class final Lcom/android/virtualization/terminal/ErrorActivity$onCreate$1;
+decoded/smali/com/android/virtualization/terminal/ErrorActivity$onCreate$1.smali:10:.field final synthetic this$0:Lcom/android/virtualization/terminal/ErrorActivity;
+decoded/smali/com/android/virtualization/terminal/ErrorActivity$onCreate$1.smali:14:.method constructor <init>(Lcom/android/virtualization/terminal/ErrorActivity;)V
+decoded/smali/com/android/virtualization/terminal/ErrorActivity$onCreate$1.smali:18:    iput-object p1, p0, Lcom/android/virtualization/terminal/ErrorActivity$onCreate$1;->this$0:Lcom/android/virtualization/terminal/ErrorActivity;
+decoded/smali/com/android/virtualization/terminal/ErrorActivity$onCreate$1.smali:31:    iget-object p0, p0, Lcom/android/virtualization/terminal/ErrorActivity$onCreate$1;->this$0:Lcom/android/virtualization/terminal/ErrorActivity;
+decoded/smali/com/android/virtualization/terminal/ErrorActivity$onCreate$1.smali:33:    invoke-static {p0}, Lcom/android/virtualization/terminal/ErrorActivity;->access$launchRecoveryActivity(Lcom/android/virtualization/terminal/ErrorActivity;)V
+decoded/smali/com/android/virtualization/terminal/InstallerActivity$Companion.smali:1:.class public final Lcom/android/virtualization/terminal/InstallerActivity$Companion;
+decoded/smali/com/android/virtualization/terminal/InstallerActivity$Companion.smali:20:    invoke-direct {p0}, Lcom/android/virtualization/terminal/InstallerActivity$Companion;-><init>()V
+decoded/smali/com/android/virtualization/terminal/SettingsDiskResizeActivity$showConfirmationDialog$1.smali:1:.class final Lcom/android/virtualization/terminal/SettingsDiskResizeActivity$showConfirmationDialog$1;
+decoded/smali/com/android/virtualization/terminal/SettingsDiskResizeActivity$showConfirmationDialog$1.smali:10:.field final synthetic this$0:Lcom/android/virtualization/terminal/SettingsDiskResizeActivity;
+decoded/smali/com/android/virtualization/terminal/SettingsDiskResizeActivity$showConfirmationDialog$1.smali:14:.method constructor <init>(Lcom/android/virtualization/terminal/SettingsDiskResizeActivity;)V
+decoded/smali/com/android/virtualization/terminal/SettingsDiskResizeActivity$showConfirmationDialog$1.smali:18:    iput-object p1, p0, Lcom/android/virtualization/terminal/SettingsDiskResizeActivity$showConfirmationDialog$1;->this$0:Lcom/android/virtualization/terminal/SettingsDiskResizeActivity;
+decoded/smali/com/android/virtualization/terminal/SettingsDiskResizeActivity$showConfirmationDialog$1.smali:31:    iget-object p0, p0, Lcom/android/virtualization/terminal/SettingsDiskResizeActivity$showConfirmationDialog$1;->this$0:Lcom/android/virtualization/terminal/SettingsDiskResizeActivity;
+decoded/smali/com/android/virtualization/terminal/SettingsDiskResizeActivity$showConfirmationDialog$1.smali:33:    invoke-static {p0}, Lcom/android/virtualization/terminal/SettingsDiskResizeActivity;->access$resize(Lcom/android/virtualization/terminal/SettingsDiskResizeActivity;)V
+decoded/smali/com/android/virtualization/terminal/MainActivity$special$$inlined$viewModels$default$2.smali:1:.class public final Lcom/android/virtualization/terminal/MainActivity$special$$inlined$viewModels$default$2;
+decoded/smali/com/android/virtualization/terminal/MainActivity$special$$inlined$viewModels$default$2.smali:27:    iput-object p1, p0, Lcom/android/virtualization/terminal/MainActivity$special$$inlined$viewModels$default$2;->$this_viewModels:Landroidx/activity/ComponentActivity;
+decoded/smali/com/android/virtualization/terminal/MainActivity$special$$inlined$viewModels$default$2.smali:42:    iget-object p0, p0, Lcom/android/virtualization/terminal/MainActivity$special$$inlined$viewModels$default$2;->$this_viewModels:Landroidx/activity/ComponentActivity;
+decoded/smali/com/android/virtualization/terminal/MainActivity$special$$inlined$viewModels$default$2.smali:55:    invoke-virtual {p0}, Lcom/android/virtualization/terminal/MainActivity$special$$inlined$viewModels$default$2;->invoke()Landroidx/lifecycle/ViewModelStore;
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$2.smali:1:.class final Lcom/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$2;
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$2.smali:10:.field public static final INSTANCE:Lcom/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$2;
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$2.smali:18:    new-instance v0, Lcom/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$2;
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$2.smali:20:    invoke-direct {v0}, Lcom/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$2;-><init>()V
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$2.smali:22:    sput-object v0, Lcom/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$2;->INSTANCE:Lcom/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$2;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:1:.class public final Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:28:    instance-of v1, p1, Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:37:    check-cast p1, Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:39:    iget v1, p0, Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;->scale:F
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:41:    iget v3, p1, Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;->scale:F
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:52:    iget v1, p0, Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;->refresh_rate:I
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:54:    iget v3, p1, Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;->refresh_rate:I
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:61:    iget v1, p0, Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;->width_pixels:I
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:63:    iget v3, p1, Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;->width_pixels:I
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:70:    iget p0, p0, Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;->height_pixels:I
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:72:    iget p1, p1, Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;->height_pixels:I
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:86:    iget v0, p0, Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;->scale:F
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:94:    iget v1, p0, Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;->refresh_rate:I
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:104:    iget v1, p0, Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;->width_pixels:I
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:114:    iget p0, p0, Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;->height_pixels:I
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:125:.method public final toConfig(Landroid/content/Context;)Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$DisplayConfig;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:154:    iget v2, p0, Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;->width_pixels:I
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:165:    iget v3, p0, Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;->height_pixels:I
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:189:    iget v1, p0, Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;->scale:F
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:216:    iget p0, p0, Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;->refresh_rate:I
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:224:    new-instance p0, Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$DisplayConfig$Builder;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:226:    invoke-direct {p0}, Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$DisplayConfig$Builder;-><init>()V
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:229:    invoke-virtual {p0, v2}, Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$DisplayConfig$Builder;->setWidth(I)Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$DisplayConfig$Builder;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:234:    invoke-virtual {p0, v3}, Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$DisplayConfig$Builder;->setHeight(I)Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$DisplayConfig$Builder;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:239:    invoke-virtual {p0, v0}, Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$DisplayConfig$Builder;->setHorizontalDpi(I)Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$DisplayConfig$Builder;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:244:    invoke-virtual {p0, v0}, Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$DisplayConfig$Builder;->setVerticalDpi(I)Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$DisplayConfig$Builder;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:249:    invoke-virtual {p0, p1}, Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$DisplayConfig$Builder;->setRefreshRate(I)Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$DisplayConfig$Builder;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:254:    invoke-virtual {p0}, Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$DisplayConfig$Builder;->build()Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$DisplayConfig;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:267:    iget v0, p0, Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;->scale:F
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:269:    iget v1, p0, Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;->refresh_rate:I
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:271:    iget v2, p0, Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;->width_pixels:I
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali:273:    iget p0, p0, Lcom/android/virtualization/terminal/ConfigJson$DisplayJson;->height_pixels:I
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$1$1.smali:1:.class final Lcom/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$1$1;
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$1$1.smali:10:.field final synthetic this$0:Lcom/android/virtualization/terminal/SettingsRecoveryActivity;
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$1$1.smali:14:.method constructor <init>(Lcom/android/virtualization/terminal/SettingsRecoveryActivity;)V
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$1$1.smali:18:    iput-object p1, p0, Lcom/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$1$1;->this$0:Lcom/android/virtualization/terminal/SettingsRecoveryActivity;
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$1$1.smali:31:    iget-object p0, p0, Lcom/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$1$1;->this$0:Lcom/android/virtualization/terminal/SettingsRecoveryActivity;
+decoded/smali/com/android/virtualization/terminal/SettingsRecoveryActivity$onCreate$2$dialog$1$1.smali:33:    invoke-static {p0}, Lcom/android/virtualization/terminal/SettingsRecoveryActivity;->access$removeBackup(Lcom/android/virtualization/terminal/SettingsRecoveryActivity;)V
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:1:.class public final Lcom/android/virtualization/terminal/ConfigJson$DiskJson;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:9:.field private final partitions:[Lcom/android/virtualization/terminal/ConfigJson$PartitionJson;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:26:    instance-of v1, p1, Lcom/android/virtualization/terminal/ConfigJson$DiskJson;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:35:    check-cast p1, Lcom/android/virtualization/terminal/ConfigJson$DiskJson;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:37:    iget-boolean v1, p0, Lcom/android/virtualization/terminal/ConfigJson$DiskJson;->writable:Z
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:39:    iget-boolean v3, p1, Lcom/android/virtualization/terminal/ConfigJson$DiskJson;->writable:Z
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:46:    iget-object v1, p0, Lcom/android/virtualization/terminal/ConfigJson$DiskJson;->image:Ljava/lang/String;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:48:    iget-object v3, p1, Lcom/android/virtualization/terminal/ConfigJson$DiskJson;->image:Ljava/lang/String;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:59:    iget-object p0, p0, Lcom/android/virtualization/terminal/ConfigJson$DiskJson;->partitions:[Lcom/android/virtualization/terminal/ConfigJson$PartitionJson;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:61:    iget-object p1, p1, Lcom/android/virtualization/terminal/ConfigJson$DiskJson;->partitions:[Lcom/android/virtualization/terminal/ConfigJson$PartitionJson;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:79:    iget-boolean v0, p0, Lcom/android/virtualization/terminal/ConfigJson$DiskJson;->writable:Z
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:87:    iget-object v1, p0, Lcom/android/virtualization/terminal/ConfigJson$DiskJson;->image:Ljava/lang/String;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:107:    iget-object p0, p0, Lcom/android/virtualization/terminal/ConfigJson$DiskJson;->partitions:[Lcom/android/virtualization/terminal/ConfigJson$PartitionJson;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:124:.method public final toConfig()Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$Disk;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:128:    iget-boolean v0, p0, Lcom/android/virtualization/terminal/ConfigJson$DiskJson;->writable:Z
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:132:    iget-object v0, p0, Lcom/android/virtualization/terminal/ConfigJson$DiskJson;->image:Ljava/lang/String;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:134:    invoke-static {v0}, Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$Disk;->RWDisk(Ljava/lang/String;)Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$Disk;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:142:    iget-object v0, p0, Lcom/android/virtualization/terminal/ConfigJson$DiskJson;->image:Ljava/lang/String;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:144:    invoke-static {v0}, Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$Disk;->RODisk(Ljava/lang/String;)Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$Disk;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:150:    iget-object v1, p0, Lcom/android/virtualization/terminal/ConfigJson$DiskJson;->partitions:[Lcom/android/virtualization/terminal/ConfigJson$PartitionJson;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:167:    iget-boolean v6, p0, Lcom/android/virtualization/terminal/ConfigJson$DiskJson;->writable:Z
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:171:    invoke-virtual {v5}, Lcom/android/virtualization/terminal/ConfigJson$PartitionJson;->getWritable()Z
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:186:    new-instance v7, Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$Partition;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:188:    invoke-virtual {v5}, Lcom/android/virtualization/terminal/ConfigJson$PartitionJson;->getLabel()Ljava/lang/String;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:192:    invoke-virtual {v5}, Lcom/android/virtualization/terminal/ConfigJson$PartitionJson;->getPath()Ljava/lang/String;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:196:    invoke-virtual {v5}, Lcom/android/virtualization/terminal/ConfigJson$PartitionJson;->getGuid()Ljava/lang/String;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:200:    invoke-direct {v7, v8, v9, v6, v5}, Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$Partition;-><init>(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)V
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:203:    invoke-virtual {v0, v7}, Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$Disk;->addPartition(Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$Partition;)Landroid/system/virtualmachine/VirtualMachineCustomImageConfig$Disk;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:220:    iget-boolean v0, p0, Lcom/android/virtualization/terminal/ConfigJson$DiskJson;->writable:Z
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:222:    iget-object v1, p0, Lcom/android/virtualization/terminal/ConfigJson$DiskJson;->image:Ljava/lang/String;
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali:224:    iget-object p0, p0, Lcom/android/virtualization/terminal/ConfigJson$DiskJson;->partitions:[Lcom/android/virtualization/terminal/ConfigJson$PartitionJson;
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$startDebianServer$interceptor$1$interceptCall$1.smali:1:.class public final Lcom/android/virtualization/terminal/VmLauncherService$startDebianServer$interceptor$1$interceptCall$1;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:1:.class public final Lcom/android/virtualization/terminal/DebianServiceImpl;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:2:.super Lcom/android/virtualization/terminal/proto/DebianServiceGrpc$DebianServiceImplBase;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:7:.field public static final Companion:Lcom/android/virtualization/terminal/DebianServiceImpl$Companion;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:13:.field private portsStateListener:Lcom/android/virtualization/terminal/PortsStateManager$Listener;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:15:.field private final portsStateManager:Lcom/android/virtualization/terminal/PortsStateManager;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:19:.field private storageBalloonCallback:Lcom/android/virtualization/terminal/DebianServiceImpl$StorageBalloonCallback;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:26:    new-instance v0, Lcom/android/virtualization/terminal/DebianServiceImpl$Companion;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:30:    invoke-direct {v0, v1}, Lcom/android/virtualization/terminal/DebianServiceImpl$Companion;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:32:    sput-object v0, Lcom/android/virtualization/terminal/DebianServiceImpl;->Companion:Lcom/android/virtualization/terminal/DebianServiceImpl$Companion;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:48:    invoke-direct {p0}, Lcom/android/virtualization/terminal/proto/DebianServiceGrpc$DebianServiceImplBase;-><init>()V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:51:    sget-object v0, Lcom/android/virtualization/terminal/PortsStateManager;->Companion:Lcom/android/virtualization/terminal/PortsStateManager$Companion;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:53:    invoke-virtual {v0, p1}, Lcom/android/virtualization/terminal/PortsStateManager$Companion;->getInstance(Landroid/content/Context;)Lcom/android/virtualization/terminal/PortsStateManager;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:57:    iput-object p1, p0, Lcom/android/virtualization/terminal/DebianServiceImpl;->portsStateManager:Lcom/android/virtualization/terminal/PortsStateManager;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:64:    iput-object p1, p0, Lcom/android/virtualization/terminal/DebianServiceImpl;->mLock:Ljava/lang/Object;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:69:.method public static final synthetic access$runForwarderHost(ILcom/android/virtualization/terminal/DebianServiceImpl$ForwarderHostCallback;)V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:73:    invoke-static {p0, p1}, Lcom/android/virtualization/terminal/DebianServiceImpl;->runForwarderHost(ILcom/android/virtualization/terminal/DebianServiceImpl$ForwarderHostCallback;)V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:78:.method public static final synthetic access$setShutdownRunnable$p(Lcom/android/virtualization/terminal/DebianServiceImpl;Ljava/lang/Runnable;)V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:82:    iput-object p1, p0, Lcom/android/virtualization/terminal/DebianServiceImpl;->shutdownRunnable:Ljava/lang/Runnable;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:91:    invoke-static {}, Lcom/android/virtualization/terminal/DebianServiceImpl;->terminateForwarderHost()V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:96:.method public static final synthetic access$updateListeningPorts(Lcom/android/virtualization/terminal/DebianServiceImpl;)V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:100:    invoke-direct {p0}, Lcom/android/virtualization/terminal/DebianServiceImpl;->updateListeningPorts()V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:109:    invoke-static {p0}, Lcom/android/virtualization/terminal/DebianServiceImpl;->updateListeningPorts([I)V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:114:.method private static final native runForwarderHost(ILcom/android/virtualization/terminal/DebianServiceImpl$ForwarderHostCallback;)V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:124:    iget-object v0, p0, Lcom/android/virtualization/terminal/DebianServiceImpl;->portsStateManager:Lcom/android/virtualization/terminal/PortsStateManager;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:126:    invoke-virtual {v0}, Lcom/android/virtualization/terminal/PortsStateManager;->getActivePorts()Ljava/util/Set;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:131:    iget-object p0, p0, Lcom/android/virtualization/terminal/DebianServiceImpl;->portsStateManager:Lcom/android/virtualization/terminal/PortsStateManager;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:133:    invoke-virtual {p0}, Lcom/android/virtualization/terminal/PortsStateManager;->getEnabledPorts()Ljava/util/Set;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:138:    sget-object v1, Lcom/android/virtualization/terminal/DebianServiceImpl;->Companion:Lcom/android/virtualization/terminal/DebianServiceImpl$Companion;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:192:    invoke-static {v1, p0}, Lcom/android/virtualization/terminal/DebianServiceImpl$Companion;->access$updateListeningPorts(Lcom/android/virtualization/terminal/DebianServiceImpl$Companion;[I)V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:213:    iget-object p0, p0, Lcom/android/virtualization/terminal/DebianServiceImpl;->mLock:Ljava/lang/Object;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:247:    iget-object v0, p0, Lcom/android/virtualization/terminal/DebianServiceImpl;->portsStateListener:Lcom/android/virtualization/terminal/PortsStateManager$Listener;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:252:    iget-object v1, p0, Lcom/android/virtualization/terminal/DebianServiceImpl;->portsStateManager:Lcom/android/virtualization/terminal/PortsStateManager;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:256:    invoke-virtual {v1, v0}, Lcom/android/virtualization/terminal/PortsStateManager;->unregisterListener(Lcom/android/virtualization/terminal/PortsStateManager$Listener;)V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:261:    iput-object v0, p0, Lcom/android/virtualization/terminal/DebianServiceImpl;->portsStateListener:Lcom/android/virtualization/terminal/PortsStateManager$Listener;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:265:    sget-object p0, Lcom/android/virtualization/terminal/DebianServiceImpl;->Companion:Lcom/android/virtualization/terminal/DebianServiceImpl$Companion;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:267:    invoke-static {p0}, Lcom/android/virtualization/terminal/DebianServiceImpl$Companion;->access$terminateForwarderHost(Lcom/android/virtualization/terminal/DebianServiceImpl$Companion;)V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:272:.method public openForwardingRequestQueue(Lcom/android/virtualization/terminal/proto/QueueOpeningRequest;Lio/grpc/stub/StreamObserver;)V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:287:    new-instance v0, Lcom/android/virtualization/terminal/DebianServiceImpl$openForwardingRequestQueue$1;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:289:    invoke-direct {v0, p0}, Lcom/android/virtualization/terminal/DebianServiceImpl$openForwardingRequestQueue$1;-><init>(Lcom/android/virtualization/terminal/DebianServiceImpl;)V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:292:    iput-object v0, p0, Lcom/android/virtualization/terminal/DebianServiceImpl;->portsStateListener:Lcom/android/virtualization/terminal/PortsStateManager$Listener;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:295:    iget-object v1, p0, Lcom/android/virtualization/terminal/DebianServiceImpl;->portsStateManager:Lcom/android/virtualization/terminal/PortsStateManager;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:297:    invoke-virtual {v1, v0}, Lcom/android/virtualization/terminal/PortsStateManager;->registerListener(Lcom/android/virtualization/terminal/PortsStateManager$Listener;)V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:300:    invoke-direct {p0}, Lcom/android/virtualization/terminal/DebianServiceImpl;->updateListeningPorts()V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:303:    sget-object p0, Lcom/android/virtualization/terminal/DebianServiceImpl;->Companion:Lcom/android/virtualization/terminal/DebianServiceImpl$Companion;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:305:    invoke-virtual {p1}, Lcom/android/virtualization/terminal/proto/QueueOpeningRequest;->getCid()I
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:309:    new-instance v0, Lcom/android/virtualization/terminal/DebianServiceImpl$ForwarderHostCallback;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:311:    invoke-direct {v0, p2}, Lcom/android/virtualization/terminal/DebianServiceImpl$ForwarderHostCallback;-><init>(Lio/grpc/stub/StreamObserver;)V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:313:    invoke-static {p0, p1, v0}, Lcom/android/virtualization/terminal/DebianServiceImpl$Companion;->access$runForwarderHost(Lcom/android/virtualization/terminal/DebianServiceImpl$Companion;ILcom/android/virtualization/terminal/DebianServiceImpl$ForwarderHostCallback;)V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:321:.method public openShutdownRequestQueue(Lcom/android/virtualization/terminal/proto/ShutdownQueueOpeningRequest;Lio/grpc/stub/StreamObserver;)V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:332:    new-instance v0, Lcom/android/virtualization/terminal/DebianServiceImpl$openShutdownRequestQueue$1;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:334:    invoke-direct {v0, p0}, Lcom/android/virtualization/terminal/DebianServiceImpl$openShutdownRequestQueue$1;-><init>(Lcom/android/virtualization/terminal/DebianServiceImpl;)V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:346:    new-instance v0, Lcom/android/virtualization/terminal/DebianServiceImpl$openShutdownRequestQueue$2;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:348:    invoke-direct {v0, p1, p2, p0}, Lcom/android/virtualization/terminal/DebianServiceImpl$openShutdownRequestQueue$2;-><init>(Lio/grpc/stub/ServerCallStreamObserver;Lio/grpc/stub/StreamObserver;Lcom/android/virtualization/terminal/DebianServiceImpl;)V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:350:    iput-object v0, p0, Lcom/android/virtualization/terminal/DebianServiceImpl;->shutdownRunnable:Ljava/lang/Runnable;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:355:.method public openStorageBalloonRequestQueue(Lcom/android/virtualization/terminal/proto/StorageBalloonQueueOpeningRequest;Lio/grpc/stub/StreamObserver;)V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:364:.method public reportVmActivePorts(Lcom/android/virtualization/terminal/proto/ReportVmActivePortsRequest;Lio/grpc/stub/StreamObserver;)V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:372:    iget-object v0, p0, Lcom/android/virtualization/terminal/DebianServiceImpl;->portsStateManager:Lcom/android/virtualization/terminal/PortsStateManager;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:374:    invoke-virtual {p1}, Lcom/android/virtualization/terminal/proto/ReportVmActivePortsRequest;->getPortsList()Ljava/util/List;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:380:    invoke-virtual {v0, p1}, Lcom/android/virtualization/terminal/PortsStateManager;->updateActivePorts(Ljava/util/List;)V
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:383:    iget-object p0, p0, Lcom/android/virtualization/terminal/DebianServiceImpl;->portsStateManager:Lcom/android/virtualization/terminal/PortsStateManager;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:385:    invoke-virtual {p0}, Lcom/android/virtualization/terminal/PortsStateManager;->getActivePorts()Ljava/util/Set;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:408:    invoke-static {}, Lcom/android/virtualization/terminal/proto/ReportVmActivePortsResponse;->newBuilder()Lcom/android/virtualization/terminal/proto/ReportVmActivePortsResponse$Builder;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:414:    invoke-virtual {p0, p1}, Lcom/android/virtualization/terminal/proto/ReportVmActivePortsResponse$Builder;->setSuccess(Z)Lcom/android/virtualization/terminal/proto/ReportVmActivePortsResponse$Builder;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:422:    check-cast p0, Lcom/android/virtualization/terminal/proto/ReportVmActivePortsResponse;
+decoded/smali/com/android/virtualization/terminal/DebianServiceImpl.smali:437:    iget-object p0, p0, Lcom/android/virtualization/terminal/DebianServiceImpl;->shutdownRunnable:Ljava/lang/Runnable;
+decoded/smali/com/android/virtualization/terminal/MainActivity$initializeUi$5.smali:1:.class final Lcom/android/virtualization/terminal/MainActivity$initializeUi$5;
+decoded/smali/com/android/virtualization/terminal/MainActivity$initializeUi$5.smali:10:.field final synthetic this$0:Lcom/android/virtualization/terminal/MainActivity;
+decoded/smali/com/android/virtualization/terminal/MainActivity$initializeUi$5.smali:14:.method constructor <init>(Lcom/android/virtualization/terminal/MainActivity;)V
+decoded/smali/com/android/virtualization/terminal/MainActivity$initializeUi$5.smali:18:    iput-object p1, p0, Lcom/android/virtualization/terminal/MainActivity$initializeUi$5;->this$0:Lcom/android/virtualization/terminal/MainActivity;
+decoded/smali/com/android/virtualization/terminal/MainActivity$initializeUi$5.smali:31:    iget-object p0, p0, Lcom/android/virtualization/terminal/MainActivity$initializeUi$5;->this$0:Lcom/android/virtualization/terminal/MainActivity;
+decoded/smali/com/android/virtualization/terminal/MainActivity$initializeUi$5.smali:33:    invoke-static {p0}, Lcom/android/virtualization/terminal/MainActivity;->access$addTerminalTab(Lcom/android/virtualization/terminal/MainActivity;)V
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$onStartCommand$2.smali:1:.class final Lcom/android/virtualization/terminal/VmLauncherService$onStartCommand$2;
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$onStartCommand$2.smali:12:.field final synthetic this$0:Lcom/android/virtualization/terminal/VmLauncherService;
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$onStartCommand$2.smali:16:.method constructor <init>(Lcom/android/virtualization/terminal/VmLauncherService;Landroid/os/ResultReceiver;)V
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$onStartCommand$2.smali:20:    iput-object p1, p0, Lcom/android/virtualization/terminal/VmLauncherService$onStartCommand$2;->this$0:Lcom/android/virtualization/terminal/VmLauncherService;
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$onStartCommand$2.smali:22:    iput-object p2, p0, Lcom/android/virtualization/terminal/VmLauncherService$onStartCommand$2;->$resultReceiver:Landroid/os/ResultReceiver;
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$onStartCommand$2.smali:35:    iget-object v0, p0, Lcom/android/virtualization/terminal/VmLauncherService$onStartCommand$2;->this$0:Lcom/android/virtualization/terminal/VmLauncherService;
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$onStartCommand$2.smali:37:    iget-object p0, p0, Lcom/android/virtualization/terminal/VmLauncherService$onStartCommand$2;->$resultReceiver:Landroid/os/ResultReceiver;
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$onStartCommand$2.smali:39:    invoke-static {v0, p0}, Lcom/android/virtualization/terminal/VmLauncherService;->access$doShutdown(Lcom/android/virtualization/terminal/VmLauncherService;Landroid/os/ResultReceiver;)V
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$Companion$prepareIntent$resultReceiver$1.smali:1:.class public final Lcom/android/virtualization/terminal/VmLauncherService$Companion$prepareIntent$resultReceiver$1;
