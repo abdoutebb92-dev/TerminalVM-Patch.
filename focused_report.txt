@@ -1,0 +1,174 @@
+=== Manifest feature and app declarations ===
+12:    <uses-feature android:name="android.software.virtualization_framework" android:required="true"/>
+17:    <application android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:enabled="false" android:extractNativeLibs="false" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.android.virtualization.terminal.Application" android:supportsRtl="true" android:theme="@style/VmTerminalAppTheme" android:usesCleartextTraffic="true" android:usesNonSdkApi="true">
+18:        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="true" android:name="com.android.virtualization.terminal.MainActivity">
+25:        </activity>
+26:        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.android.virtualization.terminal.DisplayActivity" android:resizeableActivity="false" android:screenOrientation="landscape" android:taskAffinity="com.android.virtualization.terminal.display" android:theme="@style/FullscreenTheme"/>
+27:        <activity android:label="@string/action_settings" android:name="com.android.virtualization.terminal.SettingsActivity"/>
+28:        <activity android:label="@string/settings_disk_resize_title" android:name="com.android.virtualization.terminal.SettingsDiskResizeActivity"/>
+29:        <activity android:label="@string/settings_port_forwarding_title" android:name="com.android.virtualization.terminal.SettingsPortForwardingActivity"/>
+30:        <activity android:label="@string/settings_recovery_title" android:name="com.android.virtualization.terminal.SettingsRecoveryActivity"/>
+31:        <activity android:label="@string/error_title" android:name="com.android.virtualization.terminal.ErrorActivity" android:process=":error"/>
+32:        <activity android:label="@string/upgrade_title" android:name="com.android.virtualization.terminal.UpgradeActivity"/>
+39:        <activity android:exported="false" android:name="com.android.virtualization.terminal.InstallerActivity">
+43:        </activity>
+44:        <service android:exported="false" android:foregroundServiceType="specialUse" android:name="com.android.virtualization.terminal.InstallerService" android:stopWithTask="true" android:value="Prepares Linux image"/>
+45:        <service android:exported="false" android:foregroundServiceType="specialUse" android:name="com.android.virtualization.terminal.VmLauncherService" android:stopWithTask="true">
+47:        </service>
+50:        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+51:        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+52:        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+84:        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+94:        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+109:    </application>
+
+=== VM config and service classes ===
+decoded/smali/com/android/virtualization/terminal/IInstallerService.smali
+decoded/smali/com/android/virtualization/terminal/MainActivity$Companion$prop$1.smali
+decoded/smali/com/android/virtualization/terminal/MainActivity$$ExternalSyntheticLambda0.smali
+decoded/smali/com/android/virtualization/terminal/InstallerActivity$measureImageSizeAndUpdateDescription$1.smali
+decoded/smali/com/android/virtualization/terminal/MainActivity$installerLauncher$1.smali
+decoded/smali/com/android/virtualization/terminal/InstallerActivity$Companion.smali
+decoded/smali/com/android/virtualization/terminal/MainActivity$special$$inlined$viewModels$default$2.smali
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DisplayJson.smali
+decoded/smali/com/android/virtualization/terminal/ConfigJson$DiskJson.smali
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$startDebianServer$interceptor$1$interceptCall$1.smali
+decoded/smali/com/android/virtualization/terminal/MainActivity$initializeUi$5.smali
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$onStartCommand$2.smali
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$Companion$prepareIntent$resultReceiver$1.smali
+decoded/smali/com/android/virtualization/terminal/MainActivity$Companion.smali
+decoded/smali/com/android/virtualization/terminal/InstallerActivity$InstallerServiceConnection.smali
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$startDebianServer$interceptor$1.smali
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$sam$java_util_function_Consumer$0.smali
+decoded/smali/com/android/virtualization/terminal/ConfigJson$InputJson.smali
+decoded/smali/com/android/virtualization/terminal/InstallerActivity$updateSizeEstimation$1.smali
+decoded/smali/com/android/virtualization/terminal/IInstallerService$Stub$Proxy.smali
+decoded/smali/com/android/virtualization/terminal/MainActivity$connectToTerminalService$1$1.smali
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$onDestroy$1.smali
+decoded/smali/com/android/virtualization/terminal/ConfigJson$PartitionJson.smali
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$startDebianServer$1.smali
+decoded/smali/com/android/virtualization/terminal/MainActivity$special$$inlined$viewModels$default$3.smali
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$Companion.smali
+decoded/smali/com/android/virtualization/terminal/ConfigJson.smali
+decoded/smali/com/android/virtualization/terminal/InstallerService$InstallerServiceImpl.smali
+decoded/smali/com/android/virtualization/terminal/MainActivity$special$$inlined$viewModels$default$1.smali
+decoded/smali/com/android/virtualization/terminal/ConfigJson$Companion.smali
+decoded/smali/com/android/virtualization/terminal/VmLauncherService.smali
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$$ExternalSyntheticLambda2.smali
+decoded/smali/com/android/virtualization/terminal/ConfigJson$Companion$$ExternalSyntheticLambda0.smali
+decoded/smali/com/android/virtualization/terminal/InstallerActivity.smali
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$$ExternalSyntheticLambda0.smali
+decoded/smali/com/android/virtualization/terminal/InstallerService$WifiCheckInputStream$NoWifiException.smali
+decoded/smali/com/android/virtualization/terminal/InstallerService.smali
+decoded/smali/com/android/virtualization/terminal/InstallerService$downloadFromUrl$1.smali
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$doShutdown$2$2.smali
+decoded/smali/com/android/virtualization/terminal/MainActivity$sam$java_util_function_Consumer$0.smali
+decoded/smali/com/android/virtualization/terminal/MainActivity$initializeUi$4.smali
+decoded/smali/com/android/virtualization/terminal/IInstallerService$Stub.smali
+decoded/smali/com/android/virtualization/terminal/MainActivity.smali
+decoded/smali/com/android/virtualization/terminal/InstallerService$WifiCheckInputStream.smali
+decoded/smali/com/android/virtualization/terminal/InstallerActivity$InstallProgressListener$onError$1.smali
+decoded/smali/com/android/virtualization/terminal/MainActivity$addTerminalTab$1.smali
+decoded/smali/com/android/virtualization/terminal/MainActivity$onCreate$1.smali
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$$ExternalSyntheticLambda3.smali
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$getTerminalServiceInfo$1.smali
+decoded/smali/com/android/virtualization/terminal/InstallerActivity$onCreate$1.smali
+decoded/smali/com/android/virtualization/terminal/InstallerService$MyNetworkCallback.smali
+decoded/smali/com/android/virtualization/terminal/ConfigJson$GpuJson.smali
+decoded/smali/com/android/virtualization/terminal/ConfigJson$SharedPathJson.smali
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$VmLauncherServiceCallback.smali
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$$ExternalSyntheticLambda1.smali
+decoded/smali/com/android/virtualization/terminal/ConfigJson$AudioJson.smali
+decoded/smali/com/android/virtualization/terminal/MainActivity$initializeUi$3.smali
+decoded/smali/com/android/virtualization/terminal/MainActivity$initializeUi$1.smali
+decoded/smali/com/android/virtualization/terminal/InstallerService$Companion.smali
+decoded/smali/com/android/virtualization/terminal/InstallerService$requestInstall$2.smali
+decoded/smali/com/android/virtualization/terminal/InstallerActivity$InstallProgressListener.smali
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$onStartCommand$1.smali
+decoded/smali/com/android/virtualization/terminal/VmLauncherService$doStart$3.smali
+decoded/smali/com/android/virtualization/terminal/ConfigJson$SharedPathJson$Companion.smali
+decoded/smali/androidx/profileinstaller/ProfileInstallerInitializer$$ExternalSyntheticLambda2.smali
+decoded/smali/androidx/profileinstaller/ProfileInstallerInitializer.smali
+decoded/smali/androidx/profileinstaller/ProfileInstaller$1.smali
+decoded/smali/androidx/profileinstaller/ProfileInstallerInitializer$Result.smali
+decoded/smali/androidx/profileinstaller/ProfileInstallerInitializer$$ExternalSyntheticLambda0.smali
+decoded/smali/androidx/profileinstaller/ProfileInstaller.smali
+decoded/smali/androidx/profileinstaller/ProfileInstaller$2.smali
+decoded/smali/androidx/profileinstaller/ProfileInstallerInitializer$$ExternalSyntheticLambda1.smali
+decoded/smali/androidx/profileinstaller/ProfileInstaller$DiagnosticsCallback.smali
+decoded/smali/androidx/profileinstaller/ProfileInstaller$$ExternalSyntheticLambda0.smali
+decoded/smali/androidx/profileinstaller/ProfileInstallerInitializer$Handler28Impl.smali
+
+=== Relevant textual strings (filtered) ===
+decoded/smali/com/google/gson/internal/reflect/ReflectionHelper.smali:165:    const-string v1, "Unexpected IllegalAccessException occurred (Gson 2.10.1). Certain ReflectionAccessFilter features require Java >= 9 to work correctly. If you are not using ReflectionAccessFilter, report this to the Gson maintainers."
+decoded/smali/com/android/virtualization/terminal/ConfigJson.smali:39:.field private final isProtected:Z
+decoded/smali/com/android/virtualization/terminal/ConfigJson.smali:167:    iget-boolean v1, p0, Lcom/android/virtualization/terminal/ConfigJson;->isProtected:Z
+decoded/smali/com/android/virtualization/terminal/ConfigJson.smali:169:    iget-boolean v3, p1, Lcom/android/virtualization/terminal/ConfigJson;->isProtected:Z
+decoded/smali/com/android/virtualization/terminal/ConfigJson.smali:419:    iget-boolean v0, p0, Lcom/android/virtualization/terminal/ConfigJson;->isProtected:Z
+decoded/smali/com/android/virtualization/terminal/ConfigJson.smali:751:    iget-boolean v1, p0, Lcom/android/virtualization/terminal/ConfigJson;->isProtected:Z
+decoded/smali/com/android/virtualization/terminal/ConfigJson.smali:753:    invoke-virtual {v0, v1}, Landroid/system/virtualmachine/VirtualMachineConfig$Builder;->setProtectedVm(Z)Landroid/system/virtualmachine/VirtualMachineConfig$Builder;
+decoded/smali/com/android/virtualization/terminal/ConfigJson.smali:1153:    iget-boolean v1, v0, Lcom/android/virtualization/terminal/ConfigJson;->isProtected:Z
+decoded/smali/com/android/virtualization/terminal/ConfigJson.smali:1221:    const-string v15, "ConfigJson(isProtected="
+decoded/smali/com/android/virtualization/terminal/DisplayProvider$$ExternalSyntheticLambda0.smali:25:    invoke-static {}, Lcom/android/virtualization/terminal/DisplayProvider;->$r8$lambda$ZAovRf7l583NQxb1xttVy9HpsFU()Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider.smali:17:.method public static synthetic $r8$lambda$ZAovRf7l583NQxb1xttVy9HpsFU()Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider.smali:21:    invoke-static {}, Lcom/android/virtualization/terminal/DisplayProvider;->virtService_delegate$lambda$0()Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider.smali:206:    invoke-direct {p0}, Lcom/android/virtualization/terminal/DisplayProvider;->getVirtService()Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider.smali:210:    invoke-interface {v0}, Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal;->waitDisplayService()Landroid/os/IBinder;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider.smali:254:.method private final getVirtService()Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider.smali:266:    check-cast p0, Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider.smali:271:.method private static final virtService_delegate$lambda$0()Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal;
+decoded/smali/com/android/virtualization/terminal/DisplayProvider.smali:275:    const-string v0, "android.system.virtualizationservice"
+decoded/smali/com/android/virtualization/terminal/DisplayProvider.smali:282:    invoke-static {v0}, Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub;->asInterface(Landroid/os/IBinder;)Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal;
+decoded/smali/android/system/virtualizationservice_internal/IVirtualizationServiceInternal.smali:1:.class public interface abstract Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal;
+decoded/smali/android/system/virtualizationservice_internal/IVirtualizationServiceInternal.smali:3:.source "IVirtualizationServiceInternal.java"
+decoded/smali/android/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub.smali:1:.class public abstract Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub;
+decoded/smali/android/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub.smali:3:.source "IVirtualizationServiceInternal.java"
+decoded/smali/android/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub.smali:6:.implements Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal;
+decoded/smali/android/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub.smali:10:.method public static asInterface(Landroid/os/IBinder;)Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal;
+decoded/smali/android/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub.smali:21:    const-string v0, "android.system.virtualizationservice_internal.IVirtualizationServiceInternal"
+decoded/smali/android/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub.smali:30:    instance-of v1, v0, Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal;
+decoded/smali/android/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub.smali:35:    check-cast v0, Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal;
+decoded/smali/android/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub.smali:41:    new-instance v0, Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub$Proxy;
+decoded/smali/android/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub.smali:43:    invoke-direct {v0, p0}, Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub$Proxy;-><init>(Landroid/os/IBinder;)V
+decoded/smali/android/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub$Proxy.smali:1:.class Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub$Proxy;
+decoded/smali/android/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub$Proxy.smali:3:.source "IVirtualizationServiceInternal.java"
+decoded/smali/android/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub$Proxy.smali:6:.implements Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal;
+decoded/smali/android/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub$Proxy.smali:21:    iput-object p1, p0, Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub$Proxy;->mRemote:Landroid/os/IBinder;
+decoded/smali/android/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub$Proxy.smali:32:    iget-object p0, p0, Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub$Proxy;->mRemote:Landroid/os/IBinder;
+decoded/smali/android/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub$Proxy.smali:41:    invoke-virtual {p0}, Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub$Proxy;->asBinder()Landroid/os/IBinder;
+decoded/smali/android/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub$Proxy.smali:56:    const-string v2, "android.system.virtualizationservice_internal.IVirtualizationServiceInternal"
+decoded/smali/android/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub$Proxy.smali:61:    iget-object p0, p0, Landroid/system/virtualizationservice_internal/IVirtualizationServiceInternal$Stub$Proxy;->mRemote:Landroid/os/IBinder;
+decoded/AndroidManifest.xml:12:    <uses-feature android:name="android.software.virtualization_framework" android:required="true"/>
+
+=== ConfigJson protected VM setter context ===
+741-    .locals 5
+742-
+743-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+744-
+745-    .line 82
+746-    new-instance v0, Landroid/system/virtualmachine/VirtualMachineConfig$Builder;
+747-
+748-    invoke-direct {v0, p1}, Landroid/system/virtualmachine/VirtualMachineConfig$Builder;-><init>(Landroid/content/Context;)V
+749-
+750-    .line 83
+751-    iget-boolean v1, p0, Lcom/android/virtualization/terminal/ConfigJson;->isProtected:Z
+752-
+753:    invoke-virtual {v0, v1}, Landroid/system/virtualmachine/VirtualMachineConfig$Builder;->setProtectedVm(Z)Landroid/system/virtualmachine/VirtualMachineConfig$Builder;
+754-
+755-    move-result-object v0
+756-
+757-    .line 84
+758-    iget v1, p0, Lcom/android/virtualization/terminal/ConfigJson;->memory_mib:I
+759-
+760-    int-to-long v1, v1
+761-
+762-    const/16 v3, 0x400
+763-
+764-    int-to-long v3, v3
+765-
+766-    mul-long/2addr v1, v3
+767-
+768-    mul-long/2addr v1, v3
+769-
+770-    invoke-virtual {v0, v1, v2}, Landroid/system/virtualmachine/VirtualMachineConfig$Builder;->setMemoryBytes(J)Landroid/system/virtualmachine/VirtualMachineConfig$Builder;
+771-

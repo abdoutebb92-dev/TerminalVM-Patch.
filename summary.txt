@@ -1,3 +1,3 @@
-Input: ./Terminal_v16(36).apk
+APK: ./Terminal_v16(36).apk
 838351f43fc037adda9145289db0414dcb57d39879b24d222f59320ba750073e  ./Terminal_v16(36).apk
-Decode completed; see matches and text_hits.
+Focused report created.
